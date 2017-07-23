@@ -8,14 +8,20 @@
      color: green;
       }
     </style>
-    
+  </head>
+  <body>
+   <div>
+      <img class="food" src="" alt="">
+   </div>
+   <div class= "text">
+    <h2> Click to see what your mind wants versus what your heart wants</h2>
+   </div>
     <script>
       var carrots= "http://www.tranquility-cottage-nursery.co.uk/ekmps/shops/rrr5955/images/carrot-early-nantes-800-seeds-438-p[ekm]300x300[ekm].jpg";
       var donuts= "http://foodiefatale.com/wp-content/uploads/KingArthurDoughnuts-300x300.jpg";
       var counter= 0;
       var image= document.querySelector('.food');
       image.src= carrots;//set default
-
       image.addEventListener('click', function(){
       counter++;
       if (counter%2 == 0) {
@@ -25,13 +31,5 @@
       }
       })
     </script>
-  </head>
-  <body>
-   <div>
-      <img class="food" src="" alt="">
-   </div>
-   <div class= "text">
-    <h2> Click to see what your mind wants versus what your heart wants</h2>
-   </div>
   </body>
 </html>
